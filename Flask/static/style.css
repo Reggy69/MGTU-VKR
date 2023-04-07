@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-color: #F8F8FF;
+    text-align: center
+}
+
+input.button{
+    background-color: #A9A9A9;
+    color: rgb(255, 255, 255);
+}
+
+.result{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
